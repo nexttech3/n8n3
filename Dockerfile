@@ -18,12 +18,10 @@ ENV NODES_INCLUDE='["n8n-nodes-base.httpRequest", "n8n-nodes-base.set"]'
 ENV NODE_FUNCTION_ALLOW_EXTERNAL='["axios", "moment"]'
 ENV N8N_COMMUNITY_PACKAGES_ENABLED=true
 
-ENV N8N_AI_ENABLED=true
-ENV N8N_AI_PROVIDER=openai
-ENV N8N_AI_OPENAI_API_KEY=
 
 
-RUN npm install sentiment face-api.js spacy opencv4nodejs
+
+RUN npm install opencv4nodejs
 
 
 
