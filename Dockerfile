@@ -21,7 +21,6 @@ ENV N8N_COMMUNITY_PACKAGES_ENABLED=true
 
 
 
-RUN npm install opencv4nodejs
 
 
 
